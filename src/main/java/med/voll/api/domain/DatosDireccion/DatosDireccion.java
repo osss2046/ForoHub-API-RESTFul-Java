@@ -1,7 +1,5 @@
-package med.voll.api.DatosDireccion;
+package med.voll.api.domain.DatosDireccion;
 import jakarta.validation.constraints.NotBlank;
-import med.voll.api.DatosDireccion.DatosDireccion;
-import med.voll.api.DatosMedicos.Especialidad;
 
 public record DatosDireccion(
         @NotBlank
